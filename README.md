@@ -85,6 +85,7 @@ Some examples of flags are:
 Grouping is used to group subexpressions together by placing them inside parenthesis. Grouping is used to apply quantifiers to a group of characters. Capturing is used to capture the result of a group, not just match it.The captured group can be reused with a numbered backreference.
 ### Bracket Expressions
 Bracket Expressions are characters enclosed by a bracket `[]` matching any single character within the brackets. 
+
 Example:
 let regex = /[abc]/;
 console.log(regex.test("apple"));   // Outputs: true
